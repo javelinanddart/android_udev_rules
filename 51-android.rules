@@ -1,0 +1,72 @@
+# Acer
+SUBSYSTEM=="usb", ATTR{idVendor}=="0502", MODE="0664", GROUP="users"
+# ASUS
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", MODE="0664", GROUP="users"
+# Dell
+SUBSYSTEM=="usb", ATTR{idVendor}=="413c", MODE="0664", GROUP="users"
+# Foxconn
+SUBSYSTEM=="usb", ATTR{idVendor}=="0489", MODE="0664", GROUP="users"
+# Fujitsu & Fujitsu Toshiba
+SUBSYSTEM=="usb", ATTR{idVendor}=="04c5", MODE="0664", GROUP="users"
+# Garmin-Asus
+SUBSYSTEM=="usb", ATTR{idVendor}=="091e", MODE="0664", GROUP="users"
+# Google
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", MODE="0664", GROUP="users"
+# Haier
+SUBSYSTEM=="usb", ATTR{idVendor}=="201e", MODE="0664", GROUP="users"
+# Hisense
+SUBSYSTEM=="usb", ATTR{idVendor}=="109b", MODE="0664", GROUP="users"
+# HTC
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0664", GROUP="users"
+# Huawei
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0664", GROUP="users"
+# Intel
+SUBSYSTEM=="usb", ATTR{idVendor}=="8087", MODE="0664", GROUP="users"
+# K-Touch
+SUBSYSTEM=="usb", ATTR{idVendor}=="24e3", MODE="0664", GROUP="users"
+# KT Tech
+SUBSYSTEM=="usb", ATTR{idVendor}=="2116", MODE="0664", GROUP="users"
+# Kyocera
+SUBSYSTEM=="usb", ATTR{idVendor}=="0482", MODE="0664", GROUP="users"
+# Lenovo
+SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", MODE="0664", GROUP="users"
+# LG
+SUBSYSTEM=="usb", ATTR{idVendor}=="1004", MODE="0664", GROUP="users"
+# Motorola
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", MODE="0664", GROUP="users"
+# MTK
+SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", MODE="0664", GROUP="users"
+# NEC
+SUBSYSTEM=="usb", ATTR{idVendor}=="0409", MODE="0664", GROUP="users"
+# Nook
+SUBSYSTEM=="usb", ATTR{idVendor}=="2080", MODE="0664", GROUP="users"
+# Nvidia
+SUBSYSTEM=="usb", ATTR{idVendor}=="0955", MODE="0664", GROUP="users"
+# OTGV
+SUBSYSTEM=="usb", ATTR{idVendor}=="2257", MODE="0664", GROUP="users"
+# Pantech
+SUBSYSTEM=="usb", ATTR{idVendor}=="10a9", MODE="0664", GROUP="users"
+# Pegatron
+SUBSYSTEM=="usb", ATTR{idVendor}=="1d4d", MODE="0664", GROUP="users"
+# Philips
+SUBSYSTEM=="usb", ATTR{idVendor}=="0471", MODE="0664", GROUP="users"
+# PMC-Sierra
+SUBSYSTEM=="usb", ATTR{idVendor}=="04da", MODE="0664", GROUP="users"
+# Qualcomm
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", MODE="0664", GROUP="users"
+# SK Telesys
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", MODE="0664", GROUP="users"
+# Samsung
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", MODE="0664", GROUP="users"
+# Sharp
+SUBSYSTEM=="usb", ATTR{idVendor}=="04dd", MODE="0664", GROUP="users"
+# Sony
+SUBSYSTEM=="usb", ATTR{idVendor}=="054c", MODE="0664", GROUP="users"
+# Sony Ericsson and Sony Mobile Communications
+SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", MODE="0664", GROUP="users"
+# Teleepoch
+SUBSYSTEM=="usb", ATTR{idVendor}=="2340", MODE="0664", GROUP="users"
+# Toshiba
+SUBSYSTEM=="usb", ATTR{idVendor}=="0930", MODE="0664", GROUP="users"
+# ZTE
+SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", MODE="0664", GROUP="users"
