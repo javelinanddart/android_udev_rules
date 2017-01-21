@@ -1,7 +1,11 @@
 # Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", MODE="0664", GROUP="users"
+# Alcatel
+SUBSYSTEM=="usb", ATTR{idVendor}=="1bbb", MODE="0664", GROUP="users"
 # ASUS
 SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", MODE="0664", GROUP="users"
+# Coolpad
+SUBSYSTEM=="usb", ATTR{idVendor}=="1ebf", MODE="0664", GROUP="users"
 # Dell
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", MODE="0664", GROUP="users"
 # Foxconn
@@ -22,6 +26,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0664", GROUP="users"
 SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0664", GROUP="users"
 # Intel
 SUBSYSTEM=="usb", ATTR{idVendor}=="8087", MODE="0664", GROUP="users"
+# INQ Mobile
+SUBSYSTEM=="usb", ATTR{idVendor}=="2314", MODE="0664", GROUP="users"
 # K-Touch
 SUBSYSTEM=="usb", ATTR{idVendor}=="24e3", MODE="0664", GROUP="users"
 # KT Tech
@@ -32,12 +38,18 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0482", MODE="0664", GROUP="users"
 SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", MODE="0664", GROUP="users"
 # LG
 SUBSYSTEM=="usb", ATTR{idVendor}=="1004", MODE="0664", GROUP="users"
+# MMX
+SUBSYSTEM=="usb", ATTR{idVendor}=="2a96", MODE="0664", GROUP="users"
 # Motorola
 SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", MODE="0664", GROUP="users"
 # MTK
 SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", MODE="0664", GROUP="users"
 # NEC
 SUBSYSTEM=="usb", ATTR{idVendor}=="0409", MODE="0664", GROUP="users"
+# Nextbit
+SUBSYSTEM=="usb", ATTR{idVendor}=="2c3f", MODE="0664", GROUP="users"
+# Nokia
+SUBSYSTEM=="usb", ATTR{idVendor}=="0421", MODE="0664", GROUP="users"
 # Nook
 SUBSYSTEM=="usb", ATTR{idVendor}=="2080", MODE="0664", GROUP="users"
 # Nvidia
@@ -70,3 +82,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="2340", MODE="0664", GROUP="users"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0930", MODE="0664", GROUP="users"
 # ZTE
 SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", MODE="0664", GROUP="users"
+# Zuk
+SUBSYSTEM=="usb", ATTR{idVendor}=="2b4c", MODE="0664", GROUP="users"
+# Unknown
+SUBSYSTEM=="usb", ATTR{idVendor}=="0451", MODE="0664", GROUP="users"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0502", MODE="0664", GROUP="users"
